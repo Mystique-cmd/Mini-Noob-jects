@@ -1,0 +1,2 @@
+A shellcode encoder transforms shellcode (malicious machine code) into an obfuscated format. This is to help evade security software and bypass problematic characters that might hinder execution.
+A shellcode decoder is a small piece of assembly code that is prepended to the encoded shellcode. Its function is to reverse the encoding process during runtime, restoring the original shellcode in memory and then transfering execution to it.
